@@ -6,7 +6,7 @@
     "Ledger",
     "LedgerWallet",
     "Casinocoin",
-    "xlm",
+    "csc",
     "NanoS",
     "Blue",
     "Hardware Wallet"
@@ -22,14 +22,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "lib/Str.js",
+  "main": "lib/Csc.js",
   "license": "Apache-2.0",
   "dependencies": {
     "@ledgerhq/hw-transport": "^4.7.3",
-    "base32.js": "^0.1.0",
-    "crc": "^3.5.0",
-    "sha.js": "^2.3.6",
-    "tweetnacl": "^1.0.0"
+    "bip32-path": "0.4.2"
   },
   "devDependencies": {
     "flow-bin": "^0.68.0",
